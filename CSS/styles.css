@@ -1,3 +1,33 @@
 body{
-	background-color: green;
+	margin: 0px;
+}
+ 
+h1{
+	margin: 0px;
+	
+}
+
+p{
+	margin: 0;
+}
+
+
+
+.top-container{
+	background-color: #dff8f4;
+	margin-top: 0px;
+	padding: 5%;
+	
+}
+
+.middle-container{
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+
+.bottom-container{
+	background-color: red;
+	width: 200px;
+	height: 200px;
 }
