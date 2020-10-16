@@ -1,9 +1,13 @@
 body{
 	margin: 0px;
+	text-align: center;
 }
  
 h1{
-	margin: 0px;
+	margin-top: 0;
+	/*when you are using width as percentage then you should use auto to center the elements
+	automatically. also "0 auto" = top bottom 0 margin left right 
+	auto 0 auto 0 auto would mean top margin =0, right = auto, bottom= 0 and left=auto*/
 	
 }
 
@@ -15,8 +19,8 @@ p{
 
 .top-container{
 	background-color: #dff8f4;
-	margin-top: 0px;
-	padding: 5%;
+	padding-top: 100px ;
+	position: relative;
 	
 }
 
@@ -30,4 +34,14 @@ p{
 	background-color: red;
 	width: 200px;
 	height: 200px;
+}
+.cloud1{
+	position: absolute;
+	top: 50px;
+	right:  300px;
+}
+.cloud2{
+	position: absolute;
+	left:  300px;
+	bottom:  300px;
 }
