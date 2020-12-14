@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	text-align: center;
-	line-height: 2;
+	
 }
  
 h1{
@@ -12,6 +12,7 @@ h1{
 	font-family: 'Pacifico','Langar', cursive;
 	font-size: 5rem;/*16px=100%=1em*/
 	color: #66BFBF;
+	line-height: 2;
 }
 h2{
 	font-family: 'Special Elite', cursive;
@@ -21,15 +22,25 @@ h2{
 h3{
 	font-family: 'Langar' ;
 	color: #11999E;
+	/*font-size: 2rem;*/
 }
 p{
 	margin: 0;
 	font-family: 'Special ELite', sans-serif;
-	font-weight: 2px;
+	font-weight: normal;
 }
 a{
 	color: #11999E;
+	text-decoration: none;
 }
+hr{
+	margin: 100px auto 100px auto;
+	border-style: none none;
+    border-top-style: dotted;
+    border-color: #CEDEDE;
+    width:9%;
+    border-width: 9px; 
+     }
 
 .top-container{
 	background-color: #dff8f4;
@@ -43,7 +54,9 @@ a{
 }
 
 .bottom-container{
-
+	background-color: #66bfbf;
+	margin-top: 100px;
+	padding: 100px 100px 40px 100px;
 }
 .cloud1{
 	position: absolute;
@@ -57,18 +70,88 @@ a{
 }
 .mypic{
 	width:  10%;
+	margin-top: 5%;
 }
 
 .writing-gif{
-	width: 10%;
+	width: 25%;
+	
+	float: left;
+	margin-right: 30px;
 }
 .programing{
-	width: 10%;
+	width: 25%;
+	float: right;
+	margin-left: 30px;
 }
 .skill-row{
-	display: inline;
+	margin: 100px auto 100px auto;
+	width: 50%;
+	text-align: left;
+}
+.btn {
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #09BAC0);
+   background-image: -moz-linear-gradient(top, #11999E, #09BAC0);
+   background-image: -ms-linear-gradient(top, #11999E, #09BAC0);
+   background-image: -o-linear-gradient(top, #11999E, #09BAC0);
+   background-image: -webkit-gradient(to bottom, #11999E, #09BAC0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Special Elite',sans-serif;
+   font-size: 27px;
+   font-weight: 100;
+   padding: 24px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.footer-link{
+	margin: 50px;
+	color: #11999E;
+	font-size: 1.5rem ;
+	font-family: 'Special Elite', sans-serif;
+}
+.para-skill{
+	line-height: 2;
+}
+.sign-off{
+	padding: 20px;
+	margin: 5px 0px 2px 0px;
+	color: #EAF6F6;
 }
 #bio{
 	font-weight: normal;
+
+}
+#intro-text{
+	width: 50%;
+	margin: auto;
+	line-height: 2;
 }
 
+#bottom-h3{
+	margin: 50px auto 50px auto;
+}
+#bottom-text{
+	width: 50%;
+	margin: 20px auto;
+	line-height: 2;
+}
